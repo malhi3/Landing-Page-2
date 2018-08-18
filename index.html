@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".logo-img").animate({opacity: "1.0"}, 1000).delay(1000).animate({top: '10%', width: "100px"}, 700, function(){
+		$(".content").animate({opacity: "1.0"}, 1000);
+	});
+});
+</script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<img src="enliteIcon.png" alt="logo" class="logo-img"/>
+	<div class="content">
+		<div class="header-section" style="width: 100%;">
+			<h1>Changing the way you learn.</h1>
+			<p class="second-header">Enlite - Coming Soon.</p>
+		</div>
+		<a href="">Signup for the beta.</a>
+	</div>
+</body>
+</html>
